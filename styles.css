@@ -1,0 +1,83 @@
+/*registration*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+body {
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Mulish, sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+form {
+    display: inline-block;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+label {
+    float: left;
+}
+.error {
+    float: left;
+    color: red;
+}
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    margin-bottom: 2px;
+}
+input:focus {
+    outline: 2px solid orange;
+    outline-offset: -2px;
+}
+#submit-btn {
+    background-color: orange;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    font-size: 15px;
+}
+#submit-btn:hover {
+    background-color: transparent;
+}
+
+/*display of information*/
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px; 
+}
+.container p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+.container p strong {
+    min-width: 120px;
+    text-align: left;
+    font-weight: bold;
+}
+.container p span {
+    text-align: left;
+}
